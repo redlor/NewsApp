@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="image_small">24dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="text_sixe">16sp</dimen>
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="side_margin_card">8dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+</resources>
