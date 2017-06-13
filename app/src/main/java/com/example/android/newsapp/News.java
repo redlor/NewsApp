@@ -7,10 +7,10 @@ package com.example.android.newsapp;
 public class News {
 
     // Declaring variables
-    private String mCategory;
-    private String mTitle;
-    private String mPublicationDate;
-    private String mUrl;
+    private final String mCategory;
+    private final String mTitle;
+    private final String mPublicationDate;
+    private final String mUrl;
 
     // Construct a new News object
     public News(String category, String title, String publicationDate, String url) {

@@ -17,7 +17,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
 
     private static final String DATE_SEPARATOR = "T";
     private static OnItemClickListener Listener;
-    List<News> mNews;
+    private   List<News> mNews;
     NewsActivity mContext;
 
     // Construct a new NewsAdapter

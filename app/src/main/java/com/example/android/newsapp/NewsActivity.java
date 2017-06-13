@@ -54,7 +54,9 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
             public void onItemClick(News news) {
                 Uri newsUri = Uri.parse(news.getUrl());
                 Intent websiteIntent = new Intent(Intent.ACTION_VIEW, newsUri);
-                startActivity(websiteIntent);
+                if (websiteIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(websiteIntent);
+                }
             }
         });
 
